@@ -13,3 +13,8 @@ The String Calculator supports the following features:
 5. **Custom Delimiters**: Allows defining custom delimiters.
 6. **Error Handling**: Throws an error when input contains negative numbers.
 7. **Ignore Large Numbers**: Numbers greater than 1000 are ignored.
+## Getting Started
+
+### Prerequisites
+- Ruby (version 3.0 or later recommended)
+- RSpec (for running tests)
