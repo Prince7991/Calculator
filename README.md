@@ -33,3 +33,8 @@ require './string_calculator'
 calculator = StringCalculator.new
 puts calculator.add("1,2,3") # Output: 6
 ```
+## Testing
+Run the test suite with:
+```bash
+rspec
+```
