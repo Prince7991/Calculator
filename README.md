@@ -21,8 +21,15 @@ The String Calculator supports the following features:
 2. Install dependencies (RSpec):
    ```bash
    gem install rspec
-   
+
 3. Run tests:
    ```bash
    rspec
-   ```
+## Usage
+
+```ruby
+require './string_calculator'
+
+calculator = StringCalculator.new
+puts calculator.add("1,2,3") # Output: 6
+```
