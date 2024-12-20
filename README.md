@@ -18,3 +18,7 @@ The String Calculator supports the following features:
 ### Prerequisites
 - Ruby (version 3.0 or later recommended)
 - RSpec (for running tests)
+2. Install dependencies (RSpec):
+   ```bash
+   gem install rspec
+   ```
