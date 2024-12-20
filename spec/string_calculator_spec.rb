@@ -21,5 +21,10 @@ RSpec.describe StringCalculator do
     expect(calculator.add('1,2,3')).to eq(6)
   end
 
+  it 'handles new line as a delimiter' do
+    calculator = StringCalculator.new
+    expect(calculator.add("1\n2,3")).to eq(6)
+  end
+
   
 end
