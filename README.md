@@ -21,4 +21,8 @@ The String Calculator supports the following features:
 2. Install dependencies (RSpec):
    ```bash
    gem install rspec
+   
+3. Run tests:
+   ```bash
+   rspec
    ```
