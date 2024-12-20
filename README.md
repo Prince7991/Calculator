@@ -40,3 +40,9 @@ rspec
 ```
 ## Development
 This project was developed incrementally, following good Git practices with multiple logical commits to ensure traceability and maintainability.
+## Author
+Prince
+
+---
+
+Happy coding! 🎉
