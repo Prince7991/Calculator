@@ -32,4 +32,10 @@ RSpec.describe StringCalculator do
   end
 
   
+  it 'raises an error for multiple negative numbers' do
+    calculator = StringCalculator.new
+    expect { calculator.add("-1,-2,3") }.to raise_error("Negative numbers not allowed: -1,-2")
+  end
+
+  
 end
